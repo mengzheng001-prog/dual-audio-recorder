@@ -1,0 +1,16 @@
+# 录音输出，不入库
+recordings/
+
+# 运行时生成的本地配置（含设备名等）
+settings.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器/系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

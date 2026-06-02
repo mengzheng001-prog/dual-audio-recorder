@@ -227,9 +227,26 @@ class RecoderApp:
 
 
 def main():
-    root = tk.Tk()
-    RecoderApp(root)
-    root.mainloop()
+    # 无窗口(pythonw)启动时没有控制台，启动异常写入 error.log 便于排查
+    try:
+        root = tk.Tk()
+        RecoderApp(root)
+        root.mainloop()
+    except Exception:
+        import traceback
+        import datetime
+        tb = traceback.format_exc()
+        log = os.path.join(os.path.dirname(os.path.abspath(__file__)), "error.log")
+        try:
+            with open(log, "a", encoding="utf-8") as f:
+                f.write("\n[{}]\n{}".format(datetime.datetime.now(), tb))
+        except OSError:
+            pass
+        try:
+            messagebox.showerror("Recoder 启动失败", "详情见 error.log\n\n" + tb)
+        except Exception:
+            pass
+        raise
 
 
 if __name__ == "__main__":

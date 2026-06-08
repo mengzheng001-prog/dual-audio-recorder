@@ -4,7 +4,7 @@
 并自动生成区分"我 / 对方"的逐字文字稿。Windows 11 桌面小工具。
 
 ## 解决的痛点
-普通录音软件只能录一路：要么只录到麦克风（只有我），要么只录到系统声（只有对方）。
+普通录音软件只能录一路：要么只录到麦克风（只有我），要么只录到系统声（只有对方）。主流会议软件又有音频转文字的用量限制。
 Recoder 同时抓两路：
 
 - **对方的声音** = 系统回环录音（WASAPI Loopback，抓操作系统播放流）
@@ -89,3 +89,11 @@ numpy（混音）· [faster-whisper](https://github.com/SYSTRAN/faster-whisper)�
 
 ## License
 [MIT](LICENSE)
+
+## 最终效果
+
+<img width="577" height="465" alt="image" src="https://github.com/user-attachments/assets/0ca3cfa1-d0c7-4599-9982-5bbdaf762e1e" />
+
+文件存储：音频+文字记录
+<img width="556" height="112" alt="image" src="https://github.com/user-attachments/assets/c7fc759b-b055-4345-8d1a-7af7c3d96ab3" 
+  

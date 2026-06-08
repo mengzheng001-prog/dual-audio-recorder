@@ -95,5 +95,6 @@ numpy（混音）· [faster-whisper](https://github.com/SYSTRAN/faster-whisper)�
 <img width="577" height="465" alt="image" src="https://github.com/user-attachments/assets/0ca3cfa1-d0c7-4599-9982-5bbdaf762e1e" />
 
 文件存储：音频+文字记录
-<img width="556" height="112" alt="image" src="https://github.com/user-attachments/assets/c7fc759b-b055-4345-8d1a-7af7c3d96ab3" 
+<img width="556" height="112" alt="image" src="https://github.com/user-attachments/assets/d14a888c-c088-4424-aa8e-e41d91450ab7" />
+
   
